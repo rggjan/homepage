@@ -1,4 +1,4 @@
-homepage
-========
+Easylogging++ Homepage
+======================
 
-Source for easylogging.org
+Source for http://easylogging.org
