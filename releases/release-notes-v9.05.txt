@@ -1,18 +1,18 @@
 
-Easylogging++ v9.06 RELEASE NOTES
+Easylogging++ v9.05 RELEASE NOTES
 ---------------------------------
 
 ==========================
 =      BUG FIXES         =
 ==========================
 
- - std::unordered_set error (issue #91)
+ - Error while generating stack trace on crash when stacktrace is active (issue #88)
 
 ==========================
 =     NEW FEATURES       =
 ==========================
 
- - Add support for missing boost::container templates (issue #89)
+ - Ability to choose detailed crash reason (issue #90)
 
 ==========================
 =         NOTES          =
