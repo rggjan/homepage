@@ -1,4 +1,4 @@
 <?php
-$currentVersion = "9.18";
-$releaseDate ="09-09-2013 1833hrs";
+$currentVersion = "9.19";
+$releaseDate ="20-09-2013 1816hrs";
 ?>
