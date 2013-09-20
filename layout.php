@@ -8,21 +8,10 @@
     </head>
     <body>
     <?php
-        include_once "tools/syntax_highlighter/cppToHtmlSyntaxHighlighter.php"
+        include_once "tools/syntax_highlighter/cppToHtmlSyntaxHighlighter.php";
+        include_once "analyticstracking.php";
     ?>
     <div class="contents">
-        <table width="100%">
-            <tr>
-                <td>
-                    <a href='/'><img src = "/images/banner.png" class="banner" /></a>
-                </td>
-                <td align="right" valign="top">
-                    <?php
-                        /*
-                         Once search.php is ready we will uncomment this
-                         include_once "search.php";
-                        */
-                     ?>
-                </td>
-            </tr>
-        </table>
+        <p>
+            <a href='/'><img src = "/images/banner.png" class="banner" /></a>
+        </p>
