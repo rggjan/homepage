@@ -7,6 +7,9 @@
         <a href="http://www.icplusplus.com">icplusplus.com</a>
         <br/>
         <br/>
+        This is open source site <a href="https://github.com/easylogging/homepage/">hosted on github</a>
+        <br/>
+        <br/>
         &copy;&nbsp;Copyright 2012-2013 icplusplus.com
         </center>
     </body>
