@@ -8,10 +8,16 @@
     </head>
     <body>
     <?php
+        include_once "version.php";
         include_once "tools/syntax_highlighter/cppToHtmlSyntaxHighlighter.php";
         include_once "analyticstracking.php";
     ?>
     <div class="contents">
-        <p>
+        <span>
             <a href='/'><img src = "/images/banner.png" class="banner" /></a>
-        </p>
+        </span>
+        <span style="float:right">
+            <?php
+                include_once "version-operations.php";
+            ?>
+        </span>

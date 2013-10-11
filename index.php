@@ -1,6 +1,5 @@
 <?php
     include_once "layout.php";
-    include_once "version.php";
 ?>
 
 <pre><span class="vinfo">Current version <?php print "v$currentVersion ($releaseDate)"; ?> </span></pre>
