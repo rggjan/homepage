@@ -1,4 +1,3 @@
-Selected version:
 <select id="verOper">
    <option>v<?php print $currentVersion; ?></option>
 <?php
@@ -15,6 +14,7 @@ Selected version:
        for ($mn = $minor; $mn >= 0; --$mn) {
            $minver = str_pad("$mn", 2, "0", STR_PAD_LEFT);
            $ver = "$mj.$minver";
+           if ($ver == $currentVersion) continue;
            print getOptions($ver);
        }
    }
