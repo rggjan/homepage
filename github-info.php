@@ -3,6 +3,11 @@
 &nbsp;
 <span style="position:absolute; background: #F8F8F8" id="githubStarsUser">
 </span>
+<style>
+.github_user:hover {
+    background-color:lightgreen;
+}
+</style>
 <script type="text/javascript">
 var stargazers = new Array();
 
@@ -13,18 +18,28 @@ refreshStargazersSpan = function() {
     var users = ""; 
     users += "<table style='border: 1px darkgreen solid; text-shadow: 0 1px 0 #fff;'><tr>";
     $.each(stargazers, function(i, v) {
-        users += "<td>" + v.login + "</td>";
-        if (i != 0 && i % 2 == 0) users += "</tr><tr>";
+        var oneIdx = i + 1;
+        users += "<td class='github_user' style='";
+        if (oneIdx % 3 != 0) {
+            users += "border-right: 1px darkgreen dashed;";
+        }
+        users += "'>&nbsp;<a href='" + v.html_url + "'><img src='" + v.avatar_url + "' width='28' height='28' />" + v.login + "</a>&nbsp;</td>";
+       if (oneIdx % 3 == 0) users += "</tr><tr>";
     });
     users += "</tr></table>";
+    
     $("#githubStarsUser").html(users);
 
-    $("#githubStars").mouseenter(function() {
+    var divHiding;
+    $("#githubStars, #githubStarsUser").mouseenter(function() {
+        clearTimeout(divHiding);
         $("#githubStarsUser").show();
     });
 
-    $("#githubStars").mouseleave(function() {
-        $("#githubStarsUser").hide();
+    $("#githubStars, #githubStarsUser").mouseleave(function() {
+        divHiding = setTimeout(function() {
+            $("#githubStarsUser").hide();
+        }, 1000);
     });
 
     $("#githubStars").click(function() {
