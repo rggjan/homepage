@@ -18,6 +18,7 @@
         </span>
         <span style="float:right">
             <?php
+                include_once "github-info.php";
                 include_once "version-operations.php";
             ?>
         </span>
