@@ -7,12 +7,15 @@
 .github_user:hover {
     background-color:lightgreen;
 }
+.github_img {
+    vertical-align: middle;
+}
 </style>
 <script type="text/javascript">
 var stargazers = new Array();
 
 refreshStargazersSpan = function() {
-    $("#githubStars").html("<img src='/images/star.png' style='vertical-align: text-bottom;' />&nbsp;" + stargazers.length + " Stars");
+    $("#githubStars").html("<img src='/images/star.png' class='github_img' />&nbsp;" + stargazers.length + " Stars");
     $("#githubStarsUser").hide();
 
     var users = ""; 
@@ -23,7 +26,7 @@ refreshStargazersSpan = function() {
         if (oneIdx % 3 != 0) {
             users += "border-right: 1px darkgreen dashed;";
         }
-        users += "'>&nbsp;<a href='" + v.html_url + "'><img src='" + v.avatar_url + "' width='28' height='28' />" + v.login + "</a>&nbsp;</td>";
+        users += "'>&nbsp;<a href='" + v.html_url + "'><img src='" + v.avatar_url + "' width='28' height='28' class='github_img' />&nbsp;" + v.login + "</a>&nbsp;</td>";
        if (oneIdx % 3 == 0) users += "</tr><tr>";
     });
     users += "</tr></table>";
