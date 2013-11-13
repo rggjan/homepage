@@ -1,6 +1,7 @@
 <?php
     include_once "layout.php"
 ?>
+<br/>
 <b>Easylogging++ Licence</b>
 <pre>
 The MIT License (MIT)
