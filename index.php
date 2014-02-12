@@ -9,7 +9,7 @@ Single header only, extremely light-weight high performance logging library for 
 The strengths of Easylogging++ are its speed and simplicity. It is extremely light-weight, robust, fast performing, thread and type safe and consists of many built-in features. It fits in small to medium sized projects, it provides ability to write logs in your own customized format and also provide support for logging your classes, third-party libraries, STL and third-party containers etc.
 </p>
 <p>
-You may want to have a look at <a href='https://github.com/mkhan3189/project-islam'>Project Islam</a> to observe complete use of this library.
+You may want to have a look at <a href='https://github.com/mkhan3189/project-islam'>Project Islam</a> to observe complete use of this library. You may also wish to have a look at <a href='http://easylogging.org/sample.log'>sample log file</a> generated from this project.
 </p>
 <table width="100%">
 <tr>

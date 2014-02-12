@@ -1,0 +1,27 @@
+...
+12/02/2014 10:57:55,592 INFO  [settings_loader] Saving settings to [/home/mkhan/project-islam-data/basic_settings.ini]
+12/02/2014 10:57:55,592 VER-9 [settings_loader] Saving setting [update_checked]
+12/02/2014 10:57:56,149 DEBUG [quran] Executed [Load Complete Quran] in [532 ms]
+12/02/2014 10:57:57,689 INFO  [default] Loading all the extensions. ExtensionBar [0xc02810]; application path: /home/mkhan/cpp/project-islam-build
+12/02/2014 10:57:57,701 INFO  [extension.AlQuran] Changing settings file to [/home/mkhan/project-islam-data/basic_settings.ini]
+12/02/2014 10:57:57,734 INFO  [extension.AlQuran] Loading chapter [Al-Fatihah]
+12/02/2014 10:57:57,800 DEBUG [extension.performance.AlQuran] Executed [void QuranView::updateView()] in [2 ms]
+12/02/2014 10:57:57,800 DEBUG [extension.performance.AlQuran] Executed [void QuranView::update(quran::Chapter *, int, int)] in [66 ms]
+12/02/2014 10:57:57,800 DEBUG [extension.performance.AlQuran] Executed [void QuranReader::on_cboChapter_currentIndexChanged(int)] in [66 ms]
+12/02/2014 10:57:57,804 INFO  [extension.AlQuran] Adding bookmark [Surah Kahf - Recite=18:32-44]
+12/02/2014 10:57:57,804 INFO  [extension.AlQuran] Adding bookmark [Surah Humazah=104:1-9]
+12/02/2014 10:57:57,804 INFO  [extension.AlQuran] Adding bookmark [Memorization=90:1-20:5]
+12/02/2014 10:57:57,804 INFO  [extension.AlQuran] Saving settings to [/home/mkhan/project-islam-data/basic_settings.ini]
+12/02/2014 10:57:57,853 DEBUG [extension.performance.AlQuran] Executed [void QuranView::updateView()] in [2 ms]
+12/02/2014 10:57:57,853 DEBUG [extension.performance.AlQuran] Executed [void QuranView::update(quran::Chapter *, int, int)] in [41 ms]
+12/02/2014 10:57:57,853 INFO  [extension.AlQuran] Saving settings to [/home/mkhan/project-islam-data/basic_settings.ini]
+12/02/2014 10:57:57,889 DEBUG [extension.performance.AlQuran] Executed [void QuranView::updateView()] in [2 ms]
+12/02/2014 10:57:57,889 DEBUG [extension.performance.AlQuran] Executed [void QuranView::update(quran::Chapter *, int, int)] in [35 ms]
+12/02/2014 10:57:57,889 INFO  [extension.AlQuran] Saving settings to [/home/mkhan/project-islam-data/basic_settings.ini]
+12/02/2014 10:57:57,897 DEBUG [extension.performance.AlQuran] Executed [void QuranView::updateView()] in [2 ms]
+12/02/2014 10:57:57,897 DEBUG [extension.performance.AlQuran] Executed [void QuranView::update(quran::Chapter *, int, int)] in [7 ms]
+12/02/2014 10:57:57,897 INFO  [extension.AlQuran] Saving settings to [/home/mkhan/project-islam-data/basic_settings.ini]
+12/02/2014 10:57:57,909 DEBUG [default] [void SettingsLoader::changeSettingsFile(const QString &)] Logger [extension.AlQuran] is not registered yet!
+12/02/2014 10:57:57,914 INFO  [extension.Salah] Building salah times for 12/2/2,014 @ (-35.282, 149.129) timezone: 11
+12/02/2014 10:57:57,969 DEBUG [performance] [el::base::Trackable::~Trackable()] Executed [void MainWindow::reloadStyles()] in [48 ms]
+...
