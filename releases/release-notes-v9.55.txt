@@ -1,11 +1,11 @@
-Easylogging++ v9.57 RELEASE NOTES
+Easylogging++ v9.55 RELEASE NOTES
 ---------------------------------
 
 =========================
-=       BUG FIXES       =
+=     NEW FEATURES      =
 =========================
 
- - Issue with multithreading and disabled logging levels (issue #155)
+ - FreeBSD build fix (Thanks to Yawning @ Github)
 
 ==========================
 =         NOTES          =
