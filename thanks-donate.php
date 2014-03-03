@@ -1,7 +1,8 @@
 <?php
     include_once "layout.php"
 ?>
-Thanks for your donation :)
+<br/>
+<span>Thanks for your donation :)</span>
 <br/>
 <br/>
 <a href='/'>Continue to homepage...</a>
