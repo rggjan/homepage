@@ -21,4 +21,6 @@
                 include_once "github-info.php";
                 include_once "version-operations.php";
             ?>
+            <br/>
+            <img src="https://travis-ci.org/easylogging/easyloggingpp.png?branch=develop" />
         </span>
