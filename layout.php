@@ -14,13 +14,13 @@
     ?>
     <div class="contents">
         <span>
-            <a href='/'><img src = "/images/banner.png" class="banner" /></a>
+            <a href="/"><img src = "/images/banner.png" class="banner" /></a>
         </span>
         <span style="float:right">
             <?php
                 include_once "github-info.php";
                 include_once "version-operations.php";
             ?>
-            <br/>
-            <img src="https://travis-ci.org/easylogging/easyloggingpp.png?branch=develop" />
+            <br/><br/>
+            <a href="https://travis-ci.org/easylogging/easyloggingpp"><img class="travis-build" src="https://travis-ci.org/easylogging/easyloggingpp.png?branch=develop" /></a>
         </span>
