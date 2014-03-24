@@ -2,7 +2,7 @@
         <center>
         <br/>
         <br/>
-        <a href="licence.php">Licence</a>&nbsp;|&nbsp;
+        <a href="/licence.php">Licence</a>&nbsp;|&nbsp;
         <a href="https://github.com/easylogging/">Github</a>&nbsp;|&nbsp;
         <a href="http://www.icplusplus.com">icplusplus.com</a>
         <br/>
