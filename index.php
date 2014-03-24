@@ -1,7 +1,11 @@
 <?php
     include_once "layout.php";
 ?>
-
+<script type="text/javascript">
+$(document).ready(function() {
+    updateStargazers(1, stargazers, "easyloggingpp");
+}); 
+</script>
 <pre><span class="vinfo">Current version <?php print "v$currentVersion ($releaseDate)"; ?> </span></pre>
 <p>
 Single header only, extremely light-weight high performance logging library for C++ applications

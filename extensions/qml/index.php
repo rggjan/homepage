@@ -18,8 +18,16 @@
             <a href="/"><img src = "/images/banner.png" class="banner" /></a>
         </span>
         <span style="float:right">
+            <?php
+                include_once "$root/github-info.php";
+            ?>
             <br/><br/>
         </span>
+<script type="text/javascript">
+$(document).ready(function() {
+    updateStargazers(1, stargazers, "qmllogging");
+}); 
+</script>
 <br/>
 <b><span style="font-size:2em">QML Logging</span></b>
 <pre><span class="vinfo">Current version <?php print "v$currentVersion ($releaseDate)"; ?> </span></pre>
