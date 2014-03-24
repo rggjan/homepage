@@ -26,3 +26,8 @@
             <br/><br/>
             <a href="https://travis-ci.org/easylogging/easyloggingpp"><img class="travis-build" src="https://travis-ci.org/easylogging/easyloggingpp.png?branch=develop" /></a>
         </span>
+<script type="text/javascript">
+$(document).ready(function() {
+    updateStargazers(1, stargazers, "easyloggingpp");
+}); 
+</script>
