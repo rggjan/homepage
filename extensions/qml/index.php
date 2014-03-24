@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta property="og:image" content="http://easylogging.org/images/logo-big.png"/>
+        <meta name="description" content="Single-header only, Easylogging++ extension for QML logging.">
+        <meta name="keywords" content="qml, qml logging, qt logging, qt quick, qt quick logging, quick logging, c++ logging">
         <title>QML Logging - Easylogging++ - Single header only, cross-platform logging library for C++ applications</title>
         <script type="text/javascript" src="/script/jquery.js"></script>
         <link rel="stylesheet" type="text/css" href="/style/layout.css" />
