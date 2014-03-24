@@ -4,7 +4,7 @@
         <meta property="og:image" content="http://easylogging.org/images/logo-big.png"/>
         <meta name="description" content="Single-header only, Easylogging++ extension for QML logging.">
         <meta name="keywords" content="qml, qml logging, qt logging, qt quick, qt quick logging, quick logging, c++ logging">
-        <title>QML Logging - Easylogging++ - Single header only, cross-platform logging library for C++ applications</title>
+        <title>QMLLogging - Single-header only, Easylogging++ extension for QML logging</title>
         <script type="text/javascript" src="/script/jquery.js"></script>
         <link rel="stylesheet" type="text/css" href="/style/layout.css" />
     </head>
@@ -31,7 +31,7 @@ $(document).ready(function() {
 }); 
 </script>
 <br/>
-<b><span style="font-size:2em">QML Logging</span></b>
+<b><span style="font-size:2em">QMLLogging</span></b>
 <pre><span class="vinfo">Current version <?php print "v$currentVersion ($releaseDate)"; ?> </span></pre>
 <p>
 Single-header only, Easylogging++ extension for QML logging
