@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta property="og:image" content="http://easylogging.org/images/logo-big.png"/>
+        <meta name="description" content="Single header only, extremely light-weight high performance logging library for C++ applications">
+        <meta name="keywords" content="fast c++ logging,easy c++ logging,qt logging,c++ logging">
         <title>Easylogging++ - Single header only, cross-platform logging library for C++ applications</title>
         <script type="text/javascript" src="/script/jquery.js"></script>
         <link rel="stylesheet" type="text/css" href="/style/layout.css" />
@@ -24,3 +26,8 @@
             <br/><br/>
             <a href="https://travis-ci.org/easylogging/easyloggingpp"><img class="travis-build" src="https://travis-ci.org/easylogging/easyloggingpp.png?branch=develop" /></a>
         </span>
+<script type="text/javascript">
+$(document).ready(function() {
+    updateStargazers(1, stargazers, "easyloggingpp");
+}); 
+</script>

@@ -3,6 +3,9 @@
 ?>
 <br/>
 <b>Easylogging++ Licence</b>
+<br/>
+<br/>
+<u>This licence is also applicable for extensions and wrappers that are written by Easylogging++ author/s</u>
 <pre>
 The MIT License (MIT)
 

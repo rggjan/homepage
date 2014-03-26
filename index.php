@@ -1,7 +1,6 @@
 <?php
     include_once "layout.php";
 ?>
-
 <pre><span class="vinfo">Current version <?php print "v$currentVersion ($releaseDate)"; ?> </span></pre>
 <p>
 Single header only, extremely light-weight high performance logging library for C++ applications

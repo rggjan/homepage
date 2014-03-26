@@ -50,9 +50,10 @@ refreshStargazersSpan = function() {
     });
 }
 
-updateStargazers = function(page, target) {
+updateStargazers = function(page, target, repo) {
     if (page == undefined || page == null) page = 1;
-    var apiUrl = 'https://api.github.com/repos/easylogging/easyloggingpp/stargazers?page=' + page
+    if (repo == undefined || repo == null) repo = 'easyloggingpp';
+    var apiUrl = 'https://api.github.com/repos/easylogging/' + repo + '/stargazers?page=' + page
     var total = 0;
     
     $.ajax({
@@ -68,8 +69,4 @@ updateStargazers = function(page, target) {
         }
     });
 };
-
-$(document).ready(function() {
-    updateStargazers(1, stargazers);
-}); 
 </script>
