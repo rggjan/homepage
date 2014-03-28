@@ -65,7 +65,7 @@ updateStargazers = function(page, target, repo) {
         if (data.length == 0) {
             refreshStargazersSpan();
         } else {
-            updateStargazers(page + 1, target);
+            updateStargazers(page + 1, target, repo);
         }
     });
 };
