@@ -46,7 +46,7 @@ QML logging that wraps Easylogging++ to write logs for QML side in Qt Quick appl
         $codeBlock="[cpp_code_no_line]:Simple Example;
     #include \"qmllogging.h\"
 
-    _INITIALIZE_EASYLOGGINGPP
+    _INITIALIZE_QMLLOGGING
 
     int main(int argv, const char** argc) {
         QGuiApplication app(argc, argv);
