@@ -62,6 +62,7 @@ QML logging that wraps Easylogging++ to write logs for QML side in Qt Quick appl
     ?>
 </td>
 <td width="50%">
+     <a href='latest.zip' class='big-link'><img src='/images/download.png' />&nbsp;Download QML Logging</a><br/>
     <a href='https://github.com/easylogging/qmllogging/blob/master/README.md' class='big-link'><img src='/images/help.png' />&nbsp;Manual</a><br/>
     <a href='https://github.com/easylogging/qmllogging' class='big-link'><img src='/images/github.png' />&nbsp;Source @ Github</a><br/>
     <a href='https://github.com/easylogging/qmllogging/tree/master/samples' class='big-link'><img src='/images/sample.png' />&nbsp;Samples</a><br/>
