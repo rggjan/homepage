@@ -36,7 +36,7 @@ $(document).ready(function() {
 <p>
 Single-header only, Easylogging++ wrapper for QML logging
 </p><p>
-QML logging that wraps Easylogging++ to write logs for QML side in Qt Quick applications. <u>This is project is under early stages of development</u>
+QML logging is advanced logging for QML applications, it wraps Easylogging++ to write logs for QML side in Qt Quick applications. <u>This is project is under early stages of development</u>
 </p>
 <table width="100%">
 <tr>
