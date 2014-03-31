@@ -24,6 +24,7 @@
                 include_once "$root/github-info.php";
             ?>
             <br/><br/>
+            <a href="http://easylogging.org">Easylogging++</a>
         </span>
 <script type="text/javascript">
 $(document).ready(function() {

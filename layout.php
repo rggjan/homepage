@@ -25,6 +25,8 @@
             ?>
             <br/><br/>
             <a href="https://travis-ci.org/easylogging/easyloggingpp"><img class="travis-build" src="https://travis-ci.org/easylogging/easyloggingpp.png?branch=develop" /></a>
+            <br/>
+            <a href="http://qml.easylogging.org">QML Logging</a>
         </span>
 <script type="text/javascript">
 $(document).ready(function() {
