@@ -1,0 +1,4 @@
+QML Logging v1.0 RELEASE NOTES
+---------------------------------
+
+INITIAL RELEASE

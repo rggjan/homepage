@@ -1,4 +1,4 @@
-Easylogging++ v9.63 RELEASE NOTES
+Easylogging++ v9.62 RELEASE NOTES
 ---------------------------------
 
 Release type: Minor
@@ -8,7 +8,7 @@ API changes: No
 =      BUG FIXES         =
 ==========================
 
- - Issue with multi-threading fixed for verbose logging not on (multi-threaded applications only)
+ - Fix to `Logger::verbose` checking whether verbosity is on or not
 
 ==========================
 =         NOTES          =

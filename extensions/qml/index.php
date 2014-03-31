@@ -2,9 +2,9 @@
 <html>
     <head>
         <meta property="og:image" content="http://easylogging.org/images/logo-big.png"/>
-        <meta name="description" content="Single-header only, Easylogging++ extension for QML logging.">
+        <meta name="description" content="Single-header only, Easylogging++ wrapper for QML logging.">
         <meta name="keywords" content="qml, qml logging, qt logging, qt quick, qt quick logging, quick logging, c++ logging">
-        <title>QMLLogging - Single-header only, Easylogging++ extension for QML logging</title>
+        <title>QMLLogging - Single-header only, Easylogging++ wrapper for QML logging</title>
         <script type="text/javascript" src="/script/jquery.js"></script>
         <link rel="stylesheet" type="text/css" href="/style/layout.css" />
     </head>
@@ -35,9 +35,9 @@ $(document).ready(function() {
 <b><span style="font-size:2em">QMLLogging</span></b>
 <pre><span class="vinfo">Current version <?php print "v$currentVersion ($releaseDate)"; ?> </span></pre>
 <p>
-Single-header only, Easylogging++ extension for QML logging
+Single-header only, Easylogging++ wrapper for QML logging
 </p><p>
-QML logging that wraps Easylogging++ to write logs for QML side in Qt Quick applications. <u>This is project is under early stages of development</u>
+QML logging is advanced logging for QML applications, it wraps Easylogging++ to write logs for QML side in Qt Quick applications. <u>This is project is under early stages of development</u>
 </p>
 <table width="100%">
 <tr>
@@ -47,7 +47,7 @@ QML logging that wraps Easylogging++ to write logs for QML side in Qt Quick appl
         $codeBlock="[cpp_code_no_line]:Simple Example;
     #include \"qmllogging.h\"
 
-    _INITIALIZE_EASYLOGGINGPP
+    _INITIALIZE_QMLLOGGING
 
     int main(int argv, const char** argc) {
         QGuiApplication app(argc, argv);
@@ -63,6 +63,8 @@ QML logging that wraps Easylogging++ to write logs for QML side in Qt Quick appl
     ?>
 </td>
 <td width="50%">
+    <a href='latest.zip' class='big-link'><img src='/images/download.png' />&nbsp;Download QML Logging</a><br/>
+    <a href='release-notes-latest.txt?v=<?php print $currentVersion; ?>' class='big-link'><img src='/images/notes.png' />&nbsp;Release Notes</a><br/>
     <a href='https://github.com/easylogging/qmllogging/blob/master/README.md' class='big-link'><img src='/images/help.png' />&nbsp;Manual</a><br/>
     <a href='https://github.com/easylogging/qmllogging' class='big-link'><img src='/images/github.png' />&nbsp;Source @ Github</a><br/>
     <a href='https://github.com/easylogging/qmllogging/tree/master/samples' class='big-link'><img src='/images/sample.png' />&nbsp;Samples</a><br/>

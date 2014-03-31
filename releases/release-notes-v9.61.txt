@@ -1,14 +1,20 @@
-Easylogging++ v9.63 RELEASE NOTES
+Easylogging++ v9.61 RELEASE NOTES
 ---------------------------------
 
 Release type: Minor
 API changes: No
 
 ==========================
-=      BUG FIXES         =
+=          FIXES         =
 ==========================
 
- - Issue with multi-threading fixed for verbose logging not on (multi-threaded applications only)
+ - Log functions now uses `%v` instead of `%`
+
+==========================
+=       NEW FEATURES     =
+==========================
+
+ - Type safe internal checks
 
 ==========================
 =         NOTES          =
