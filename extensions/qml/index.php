@@ -23,8 +23,6 @@
             <?php
                 include_once "$root/github-info.php";
             ?>
-            <br/><br/>
-            <a href="http://easylogging.org">Easylogging++</a>
         </span>
 <script type="text/javascript">
 $(document).ready(function() {
@@ -64,6 +62,7 @@ QML logging is advanced logging for QML applications, it wraps Easylogging++ to 
 </td>
 <td width="50%">
     <a href='latest.zip' class='big-link'><img src='/images/download.png' />&nbsp;Download QML Logging</a><br/>
+    <a href='/latest.zip' class='big-link'><img src='/images/download.png' />&nbsp;Download Easylogging++</a><br/>
     <a href='release-notes-latest.txt?v=<?php print $currentVersion; ?>' class='big-link'><img src='/images/notes.png' />&nbsp;Release Notes</a><br/>
     <a href='https://github.com/easylogging/qmllogging/blob/master/README.md' class='big-link'><img src='/images/help.png' />&nbsp;Manual</a><br/>
     <a href='https://github.com/easylogging/qmllogging' class='big-link'><img src='/images/github.png' />&nbsp;Source @ Github</a><br/>
