@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta property="og:image" content="http://easylogging.org/images/logo-big.png"/>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
         <meta name="description" content="Single-header only, Easylogging++ wrapper for QML logging.">
         <meta name="keywords" content="qml, qml logging, qt logging, qt quick, qt quick logging, quick logging, c++ logging">
         <title>QMLLogging - Single-header only, Easylogging++ wrapper for QML logging</title>
@@ -21,6 +23,7 @@
         </span>
         <span style="float:right">
             <?php
+                include_once "$root/social-media.php";
                 include_once "$root/github-info.php";
             ?>
         </span>

@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta property="og:image" content="http://easylogging.org/images/logo-big.png"/>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
         <meta name="description" content="Single header only, extremely light-weight high performance logging library for C++ applications">
         <meta name="keywords" content="fast c++ logging,easy c++ logging,qt logging,c++ logging">
         <title>Easylogging++ - Single header only, cross-platform logging library for C++ applications</title>
@@ -20,7 +22,7 @@
         </span>
         <span style="float:right">
             <?php
-                // include_once "social-media.php";
+                include_once "social-media.php";
                 include_once "github-info.php";
                 include_once "version-operations.php";
             ?>
