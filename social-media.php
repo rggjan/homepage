@@ -26,7 +26,7 @@
 <span class="social-media-buttons">
     <a href="//twitter.com/share" onclick="return twitterShareClick();" class="social-media-button twitter-button" target="_blank" title="Share on Twitter">
     </a>
-    <a href="//plus.google.com/share" onclick="return googlePlusShareClick();" class="social-media-button googleplus-button" target="_blank" title="Share on Google+">
+    <a href="//plus.google.com/share" onclick="return googlePlusShareClick();" class="social-media-button google-plus-button" target="_blank" title="Share on Google+">
     </a>
     <a href="//www.facebook.com/share.php" onclick="return facebookShareClick();" class="social-media-button facebook-button" target="_blank" title="Share on Facebook">
     </a>
