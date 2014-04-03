@@ -23,11 +23,11 @@ refreshStargazersSpan = function() {
     $.each(stargazers, function(i, v) {
         var oneIdx = i + 1;
         users += "<td class='github_user' style='";
-        if (oneIdx % 3 != 0) {
+        if (oneIdx % 4 != 0) {
             users += "border-right: 1px darkgreen dashed;";
         }
         users += "'>&nbsp;<a href='" + v.html_url + "'><img src='" + v.avatar_url + "' width='28' height='28' class='github_avatar' />&nbsp;" + v.login + "</a>&nbsp;</td>";
-       if (oneIdx % 3 == 0) users += "</tr><tr>";
+       if (oneIdx % 4 == 0) users += "</tr><tr>";
     });
     users += "</tr></table>";
     
