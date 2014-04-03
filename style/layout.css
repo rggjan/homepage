@@ -57,26 +57,30 @@ img.travis-build {
     margin-right: 0.5em;
 }
 
+.social-media-button a {
+    text-decoration: none;
+}
+
 .social-media-button {
-  height: 20px;
-  width: 20px;
-  display: inline-block;
-  background-image: url(/images/social-media.png);
-  transition: 0.5s;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url(/images/social-media.png);
+    transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
 }
 .twitter-button {
-  background-position: -20px 0;
+    background-position: -20px 0;
 }
 .google-plus-button {
-  background-position: -40px 0;
+    background-position: -40px 0;
 }
 .facebook-button {
-  background-position: 0 0;
+    background-position: 0 0;
 }
 .pinterest-button {
-  background-position: -80px 0;
+    background-position: -80px 0;
 }

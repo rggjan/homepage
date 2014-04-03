@@ -23,7 +23,7 @@
         return false;
     }
 </script>
-<span>
+<span class="social-media-buttons">
     <a href="//twitter.com/share" onclick="return twitterShareClick();" target="_blank" title="Share on Twitter">
         <span class="social-media-button twitter-button"></span>
     </a>
