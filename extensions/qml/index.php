@@ -36,9 +36,10 @@ $(document).ready(function() {
 <b><span style="font-size:2em">QMLLogging</span></b>
 <pre><span class="vinfo">Current version <?php print "v$currentVersion ($releaseDate)"; ?> </span></pre>
 <p>
-Single-header only, Easylogging++ wrapper for QML logging
-</p><p>
-QML logging is advanced logging for QML applications, it wraps Easylogging++ to write logs for QML side in Qt Quick applications. <u>This is project is under early stages of development</u>
+    Single-header only, Easylogging++ wrapper for advanced logging support for QML applications
+</p>
+<p>
+    Provides functionalities to write logs and provides various other functionalities for your QML applications. You should check out Easylogging++ to see more exciting things you can do.
 </p>
 <table width="100%">
 <tr>
