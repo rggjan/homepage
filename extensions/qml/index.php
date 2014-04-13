@@ -47,18 +47,28 @@ $(document).ready(function() {
     <?php
         require_once "$root/tools/syntax_highlighter/cppToHtmlSyntaxHighlighter.php";
         $codeBlock="[cpp_code_no_line]:Simple Example;
-    #include \"qmllogging.h\"
+        #include \"qmllogging.h\"
+        _INITIALIZE_QMLLOGGING
 
-    _INITIALIZE_QMLLOGGING
+        int main(int argc, char* argv[]) {
+            QGuiApplication app(argc, argv);
+            // Following line is optional but always recommended to put this - needed by some functionalities
+            _START_EASYLOGGINGPP(argc, argv);
 
-    int main(int argv, const char** argc) {
-        QGuiApplication app(argc, argv);
-        // ...
-        el::qml::QMLLogging::registerNew();
-        // ...
-        // Now use Log.info(\"\") in QML files
-        return app.exec();
-    }[/cpp_code]";
+            // Your Qml engine
+            QQmlApplicationEngine engine(QUrl(\"...\"));
+
+            el::qml::QmlLogging::registerNew(engine.rootContext());
+
+            // Or if you are using QtQuick2ApplicationViewer
+            // QtQuick2ApplicationViewer viewer;
+            // el::qml::QMLLogging::registerNew(viewer.rootContext());
+
+            // ...
+
+            return app.exec();
+         }
+    [/cpp_code]";
         $highlighter = new Highlighter();
         $htmlCppCode=$highlighter->findCppCodeInHtmlBlock($codeBlock);
         print $htmlCppCode; 
