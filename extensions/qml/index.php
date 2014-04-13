@@ -52,7 +52,8 @@ $(document).ready(function() {
 
         int main(int argc, char* argv[]) {
             QGuiApplication app(argc, argv);
-            // Following line is optional but always recommended to put this - needed by some functionalities
+            // Following line is optional but always recommended 
+            // to put this - needed by some functionalities
             _START_EASYLOGGINGPP(argc, argv);
 
             // Your Qml engine
