@@ -1,7 +1,7 @@
-QML Logging v1.3 RELEASE NOTES
+QML Logging v1.2 RELEASE NOTES
 -------------------------------
 
-Release type: Major
+Release type: Minor
 API changes: Yes
 
 ==========================
@@ -19,6 +19,10 @@ API changes: Yes
 
  - Use Easylogging++ v9.68 for major bug fix for deploying to "not so accessible" filesystems
  - Fixed Visual C++ build for Qt quick
+
+==========================
+=     IMPROVEMENTS       =
+==========================
 
 ==========================
 =         NOTES          =
