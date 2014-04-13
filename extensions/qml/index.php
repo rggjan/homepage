@@ -52,20 +52,10 @@ _INITIALIZE_QMLLOGGING
 
 int main(int argc, char* argv[]) {
     QGuiApplication app(argc, argv);
-    // Following line is optional but always recommended 
-    // to put this - needed by some functionalities
     _START_EASYLOGGINGPP(argc, argv);
 
-    // Your Qml engine
-    QQmlApplicationEngine engine(QUrl(\"...\"));
-
+    // Pass engine's root context to registerNew
     el::qml::QmlLogging::registerNew(engine.rootContext());
-
-    // Or if you are using QtQuick2ApplicationViewer
-    // QtQuick2ApplicationViewer viewer;
-    // el::qml::QMLLogging::registerNew(viewer.rootContext());
-
-    // ...
 
     return app.exec();
  }
