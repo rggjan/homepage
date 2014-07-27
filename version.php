@@ -1,6 +1,6 @@
 <?php
-$currentVersion = "9.73";
-$releaseDate ="18-06-2014 0825hrs";
+$currentVersion = "9.74";
+$releaseDate ="27-07-2014 1432hrs";
 $major = substr($currentVersion, 0, 1);
 $minor = substr($currentVersion, 2, 2);
 ?>
