@@ -36,6 +36,27 @@ You may want to have a look at <a href='https://github.com/mkhan3189/project-isl
     <a href='https://github.com/easylogging/easyloggingpp' class='big-link'><img src='/images/github.png' />&nbsp;Source @ Github</a><br/>
     <a href='https://github.com/easylogging/easyloggingpp/tree/master/samples' class='big-link'><img src='/images/sample.png' />&nbsp;Samples</a><br/>
 </td>
+</tr>
+<tr>
+<td width="100%" colspan="2">
+    <hr />
+    <div style='text-align:center;'>
+        <img src='http://www.easylogging.org/images/icons/windows8.png?v=2' alt="Windows 8" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/windows7.png?v=2' alt="Windows 7" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/windowsxp.png?v=2' alt="Windows XP" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/ubuntu.png?v=2' alt="Ubuntu" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/mac-osx.png?v=2' alt="Mac OSX" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/android.png?v=2' alt="Android" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/raspberry-pi.png?v=2' alt="RaspberryPi" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/linux-mint.png?v=2' alt="Linux Mint" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/scientific-linux.png?v=2' alt="Scientific Linux" style='margin-left: 1.5em' />
+        <img src='http://www.easylogging.org/images/icons/fedora.png?v=2' alt="Fedora" style='margin-left: 1.5em' />
+    </div>
+    <div style='text-align:center;color:#666666;font-size:0.85em;'>
+        It's very likely that other platforms, that are not listed above, are also supported.<br/>Please let us know (via github) if you find library to work on other platforms.
+    </div>
+    <hr />
+</td>
 </tr></table>
 <br/>
 <center>
