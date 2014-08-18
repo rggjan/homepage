@@ -15,6 +15,7 @@
 var stargazers = new Array();
 
 refreshStargazersSpan = function() {
+    stargazers.reverse();
     $("#githubStars").html("<img src='/images/star.png' style='vertical-align: text-bottom;' />&nbsp;" + stargazers.length + " Stars");
     $("#githubStarsUser").hide();
 
