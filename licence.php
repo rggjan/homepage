@@ -9,11 +9,10 @@
 <pre>
 The MIT License (MIT)
 
-Copyright (c) 2015 Majid Khan
+Copyright (c) 2015 muflihun.com
 
 https://github.com/easylogging/easyloggingpp
 http://easylogging.muflihun.com
-http://muflihun.com/donation
 http://muflihun.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
