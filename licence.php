@@ -11,6 +11,7 @@ The MIT License (MIT)
 
 Copyright (c) 2015 Majid Khan
 
+https://github.com/easylogging/easyloggingpp
 http://easylogging.muflihun.com
 http://muflihun.com/donation
 http://muflihun.com
