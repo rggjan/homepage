@@ -11,7 +11,7 @@
        return $res;
    }
    for ($mj = $major; $mj >= 9; --$mj) {
-       for ($mn = $minor; $mn >= 0; --$mn) {
+       for ($mn = $minor; $mn >= 66; --$mn) {
            $minver = str_pad("$mn", 2, "0", STR_PAD_LEFT);
            $ver = "$mj.$minver";
            if ($ver == $currentVersion) continue;
@@ -31,7 +31,7 @@ $(document).ready(function() {
        var link;
        switch (oper) {
        case 'd':
-           link = site + "releases/easyloggingpp_v" + ver + ".zip";
+           link = "https://github.com/easylogging/easyloggingpp/releases/download/v" + ver + "/easyloggingpp_v" + ver + ".zip";
            break;
        case 'm':
            link = "https://github.com/easylogging/easyloggingpp/blob/v" + ver + "/README.md";

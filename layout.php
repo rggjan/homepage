@@ -29,7 +29,7 @@
             <br/><br/>
             <a href="https://travis-ci.org/easylogging/easyloggingpp"><img class="travis-build" src="https://travis-ci.org/easylogging/easyloggingpp.png?branch=develop" /></a>
             <br/><br/>
-            <span style="float:right">Looking for <a href="http://qml.easylogging.org">QML Logging</a>?</span>
+            <span style="float:right">Looking for <a href="/qml">QML Logging</a>?</span>
         </span>
 <script type="text/javascript">
 $(document).ready(function() {

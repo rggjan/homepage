@@ -66,25 +66,19 @@ int main(int argc, char* argv[]) {
     ?>
 </td>
 <td width="50%">
-    <a href='latest.zip' class='big-link'><img src='/images/download.png' />&nbsp;Download QML Logging</a><br/>
-    <a href='/latest.zip' class='big-link'><img src='/images/download.png' />&nbsp;Download Easylogging++</a><br/>
+    <a href='https://github.com/easylogging/qmllogging/releases/latest' class='big-link'><img src='/images/download.png' />&nbsp;Download QML Logging</a><br/>
+    <a href='https://github.com/easylogging/easyloggingpp/releases/download/v9.78/easyloggingpp_v9.78.zip' class='big-link'><img src='/images/download.png' />&nbsp;Download Supported Easylogging++</a><br/>
     <a href='release-notes-latest.txt?v=<?php print $currentVersion; ?>' class='big-link'><img src='/images/notes.png' />&nbsp;Release Notes</a><br/>
     <a href='https://github.com/easylogging/qmllogging/blob/master/README.md' class='big-link'><img src='/images/help.png' />&nbsp;Manual</a><br/>
     <a href='https://github.com/easylogging/qmllogging' class='big-link'><img src='/images/github.png' />&nbsp;Source @ Github</a><br/>
     <a href='https://github.com/easylogging/qmllogging/tree/master/samples' class='big-link'><img src='/images/sample.png' />&nbsp;Samples</a><br/>
 </td>
 </tr></table>
-<br/>
+<hr/>
 <center>
-    <a href='http://www.pledgie.com/campaigns/22070'><img alt='Click here to lend your support to: Easylogging++ and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/22070.png?skin_name=chrome' border='0' /></a>
+
     <br/>
-    <br/>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="SEBDTM6BJKWZY">
-        <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
-    </form>
+    <a class="donate-link" href="http://muflihun.com/donation" target="_blank"><img src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="Donate using PayPal" title="Donate using PayPal"></a>
 </center>
 <?php
     include_once "$root/footer.php"

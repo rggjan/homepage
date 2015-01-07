@@ -12,7 +12,7 @@
     }
 
     shareOnFacebook = function() {
-        window.open("//www.facebook.com/sharer.php?u=" + encodeURIComponent(location.href + "&fb=1") + "&t="
+        window.open("//www.facebook.com/sharer.php?u=" + encodeURIComponent(location.href + "?fb=1") + "&t="
                 + encodeURIComponent(document.title), "sharer", "toolbar=0,status=0,width=626,height=436");
         return false;
     }

@@ -10,7 +10,7 @@
         This is open source site <a href="https://github.com/easylogging/homepage/">hosted on github</a>
         <br/>
         <br/>
-        &copy;&nbsp;Copyright 2014 easylogging.org
+        &copy;&nbsp;Copyright 2015 muflihun.com
         </center>
     </body>
 </html>
