@@ -29,6 +29,20 @@
             <br/><br/>
             <a href="https://travis-ci.org/easylogging/easyloggingpp"><img class="travis-build" src="https://travis-ci.org/easylogging/easyloggingpp.png?branch=develop" /></a>
             <br/><br/>
+			<?php
+				$loggedInUserName = null;
+				if (!isset($_SESSION)){
+					$mufglobsess = session_name("mufglobsess");
+					session_set_cookie_params(3600, '/', '.muflihun.com');
+				    session_start();
+				}
+				if (isset($_SESSION["login_name"])) {
+					$loggedInUserName = $_SESSION["login_name"];
+				}
+				if ($loggedInUserName != null) {
+            		echo '<span style="float:right">Assalaamu `alaykum, ' . $loggedInUserName . ' [<a href="http://muflihun.com/signout?redr=http%3A%2F%2Feasylogging.muflihun.com">sign out</a>]</span><br/>';
+				}
+			?>
             <span style="float:right">Looking for <a href="/qml">QML Logging</a>?</span>
         </span>
 <script type="text/javascript">

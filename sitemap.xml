@@ -6,11 +6,6 @@
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>http://easylogging.muflihun.com/latest.zip</loc>
-      <changefreq>daily</changefreq>
-      <priority>0.95</priority>
-   </url>
-   <url>
       <loc>http://easylogging.muflihun.com/release-notes-latest.txt</loc>
       <changefreq>daily</changefreq>
       <priority>0.95</priority>
