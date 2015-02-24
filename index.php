@@ -20,7 +20,7 @@ You may wish to have a look at <a href='http://easylogging.org/sample.log'>sampl
 
     INITIALIZE_EASYLOGGINGPP
 
-    int main(int argv, const char** argc) {
+    int main(int argc, const char** argv) {
         LOG(INFO) << \"Hello, world\";
         return 0;
     }[/cpp_code]";
